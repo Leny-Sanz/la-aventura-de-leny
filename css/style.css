@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background: #3c40c6;
+    padding-top: 30px;
+    padding-left: 14px;
+}
+#lista-menu{
+    list-style: none;
+}
+#lista_menu > li{
+display:inline-block;
+font-weight: bold; /*Negrita*/
+margin-right: 20px;
+}
+
+#lista_menu > li> a:hover{
+    padding-bottom: 4px;
+    color: #FCFC04;
+   /* transition: 1s;*/
+    border-bottom: 1px solid #fff;
+}
+
+
+#lista_menu > li a{
+text-decoration: none;  /*quitar el efecto por default href*/
+color: #fff;
+}
